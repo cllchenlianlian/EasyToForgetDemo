@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300678131D6435AF00AAB7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678121D6435AF00AAB7F3 /* main.m */; };
+		300678161D6435AF00AAB7F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678151D6435AF00AAB7F3 /* AppDelegate.m */; };
+		3006781C1D6435AF00AAB7F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3006781A1D6435AF00AAB7F3 /* Main.storyboard */; };
+		3006781E1D6435AF00AAB7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3006781D1D6435AF00AAB7F3 /* Assets.xcassets */; };
+		300678211D6435AF00AAB7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3006781F1D6435AF00AAB7F3 /* LaunchScreen.storyboard */; };
+		3006782C1D6435AF00AAB7F3 /* EasyToForgetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3006782B1D6435AF00AAB7F3 /* EasyToForgetDemoTests.m */; };
+		300678371D6435AF00AAB7F3 /* EasyToForgetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678361D6435AF00AAB7F3 /* EasyToForgetDemoUITests.m */; };
+		300678461D64371A00AAB7F3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678451D64371A00AAB7F3 /* MainViewController.m */; };
+		3006784B1D643E5C00AAB7F3 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3006784A1D643E5C00AAB7F3 /* TableViewModel.m */; };
+		3006784E1D64405400AAB7F3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3006784D1D64405400AAB7F3 /* OneViewController.m */; };
+		300678511D64406200AAB7F3 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678501D64406200AAB7F3 /* TwoViewController.m */; };
+		300678541D64407100AAB7F3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300678531D64407100AAB7F3 /* ThreeViewController.m */; };
+		30FA13581D658CB700E7A8FD /* TextFieldShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA13571D658CB700E7A8FD /* TextFieldShaker.m */; };
+		30FA135C1D65A63300E7A8FD /* PlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA135B1D65A63300E7A8FD /* PlaceHolderTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300678281D6435AF00AAB7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300678061D6435AF00AAB7F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3006780D1D6435AF00AAB7F3;
+			remoteInfo = EasyToForgetDemo;
+		};
+		300678331D6435AF00AAB7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300678061D6435AF00AAB7F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3006780D1D6435AF00AAB7F3;
+			remoteInfo = EasyToForgetDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3006780E1D6435AF00AAB7F3 /* EasyToForgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyToForgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300678121D6435AF00AAB7F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		300678141D6435AF00AAB7F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		300678151D6435AF00AAB7F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3006781B1D6435AF00AAB7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3006781D1D6435AF00AAB7F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300678201D6435AF00AAB7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		300678221D6435AF00AAB7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300678271D6435AF00AAB7F3 /* EasyToForgetDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyToForgetDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3006782B1D6435AF00AAB7F3 /* EasyToForgetDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyToForgetDemoTests.m; sourceTree = "<group>"; };
+		3006782D1D6435AF00AAB7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300678321D6435AF00AAB7F3 /* EasyToForgetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyToForgetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300678361D6435AF00AAB7F3 /* EasyToForgetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyToForgetDemoUITests.m; sourceTree = "<group>"; };
+		300678381D6435AF00AAB7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300678441D64371A00AAB7F3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		300678451D64371A00AAB7F3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		300678491D643E5C00AAB7F3 /* TableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewModel.h; path = model/TableViewModel.h; sourceTree = "<group>"; };
+		3006784A1D643E5C00AAB7F3 /* TableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewModel.m; path = model/TableViewModel.m; sourceTree = "<group>"; };
+		3006784C1D64405400AAB7F3 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneViewController.h; path = controller/OneViewController.h; sourceTree = "<group>"; };
+		3006784D1D64405400AAB7F3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneViewController.m; path = controller/OneViewController.m; sourceTree = "<group>"; };
+		3006784F1D64406200AAB7F3 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = controller/TwoViewController.h; sourceTree = "<group>"; };
+		300678501D64406200AAB7F3 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = controller/TwoViewController.m; sourceTree = "<group>"; };
+		300678521D64407100AAB7F3 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeViewController.h; path = controller/ThreeViewController.h; sourceTree = "<group>"; };
+		300678531D64407100AAB7F3 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeViewController.m; path = controller/ThreeViewController.m; sourceTree = "<group>"; };
+		30FA13561D658CB700E7A8FD /* TextFieldShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldShaker.h; path = TextFieldShaker/TextFieldShaker.h; sourceTree = "<group>"; };
+		30FA13571D658CB700E7A8FD /* TextFieldShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFieldShaker.m; path = TextFieldShaker/TextFieldShaker.m; sourceTree = "<group>"; };
+		30FA135A1D65A63300E7A8FD /* PlaceHolderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceHolderTextField.h; path = controller/PlaceHolderTextField.h; sourceTree = "<group>"; };
+		30FA135B1D65A63300E7A8FD /* PlaceHolderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceHolderTextField.m; path = controller/PlaceHolderTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3006780B1D6435AF00AAB7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300678241D6435AF00AAB7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006782F1D6435AF00AAB7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300678051D6435AF00AAB7F3 = {
+			isa = PBXGroup;
+			children = (
+				300678101D6435AF00AAB7F3 /* EasyToForgetDemo */,
+				3006782A1D6435AF00AAB7F3 /* EasyToForgetDemoTests */,
+				300678351D6435AF00AAB7F3 /* EasyToForgetDemoUITests */,
+				3006780F1D6435AF00AAB7F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3006780F1D6435AF00AAB7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3006780E1D6435AF00AAB7F3 /* EasyToForgetDemo.app */,
+				300678271D6435AF00AAB7F3 /* EasyToForgetDemoTests.xctest */,
+				300678321D6435AF00AAB7F3 /* EasyToForgetDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300678101D6435AF00AAB7F3 /* EasyToForgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				300678481D643DC900AAB7F3 /* Controller */,
+				300678471D643DBF00AAB7F3 /* Model */,
+				300678141D6435AF00AAB7F3 /* AppDelegate.h */,
+				300678151D6435AF00AAB7F3 /* AppDelegate.m */,
+				300678441D64371A00AAB7F3 /* MainViewController.h */,
+				300678451D64371A00AAB7F3 /* MainViewController.m */,
+				3006781A1D6435AF00AAB7F3 /* Main.storyboard */,
+				3006781D1D6435AF00AAB7F3 /* Assets.xcassets */,
+				3006781F1D6435AF00AAB7F3 /* LaunchScreen.storyboard */,
+				300678221D6435AF00AAB7F3 /* Info.plist */,
+				300678111D6435AF00AAB7F3 /* Supporting Files */,
+			);
+			path = EasyToForgetDemo;
+			sourceTree = "<group>";
+		};
+		300678111D6435AF00AAB7F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300678121D6435AF00AAB7F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3006782A1D6435AF00AAB7F3 /* EasyToForgetDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3006782B1D6435AF00AAB7F3 /* EasyToForgetDemoTests.m */,
+				3006782D1D6435AF00AAB7F3 /* Info.plist */,
+			);
+			path = EasyToForgetDemoTests;
+			sourceTree = "<group>";
+		};
+		300678351D6435AF00AAB7F3 /* EasyToForgetDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				300678361D6435AF00AAB7F3 /* EasyToForgetDemoUITests.m */,
+				300678381D6435AF00AAB7F3 /* Info.plist */,
+			);
+			path = EasyToForgetDemoUITests;
+			sourceTree = "<group>";
+		};
+		300678471D643DBF00AAB7F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				300678491D643E5C00AAB7F3 /* TableViewModel.h */,
+				3006784A1D643E5C00AAB7F3 /* TableViewModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		300678481D643DC900AAB7F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				300678551D645B0100AAB7F3 /* NSMutableAttributedString  */,
+				30FA13551D65620E00E7A8FD /* Textfield-shake */,
+				30FA13591D658EE600E7A8FD /* TextField-placeholder */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		300678551D645B0100AAB7F3 /* NSMutableAttributedString  */ = {
+			isa = PBXGroup;
+			children = (
+				3006784C1D64405400AAB7F3 /* OneViewController.h */,
+				3006784D1D64405400AAB7F3 /* OneViewController.m */,
+			);
+			name = "NSMutableAttributedString ";
+			sourceTree = "<group>";
+		};
+		30FA13551D65620E00E7A8FD /* Textfield-shake */ = {
+			isa = PBXGroup;
+			children = (
+				30FA13561D658CB700E7A8FD /* TextFieldShaker.h */,
+				30FA13571D658CB700E7A8FD /* TextFieldShaker.m */,
+				3006784F1D64406200AAB7F3 /* TwoViewController.h */,
+				300678501D64406200AAB7F3 /* TwoViewController.m */,
+			);
+			name = "Textfield-shake";
+			sourceTree = "<group>";
+		};
+		30FA13591D658EE600E7A8FD /* TextField-placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				30FA135A1D65A63300E7A8FD /* PlaceHolderTextField.h */,
+				30FA135B1D65A63300E7A8FD /* PlaceHolderTextField.m */,
+				300678521D64407100AAB7F3 /* ThreeViewController.h */,
+				300678531D64407100AAB7F3 /* ThreeViewController.m */,
+			);
+			name = "TextField-placeholder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3006780D1D6435AF00AAB7F3 /* EasyToForgetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3006783B1D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemo" */;
+			buildPhases = (
+				3006780A1D6435AF00AAB7F3 /* Sources */,
+				3006780B1D6435AF00AAB7F3 /* Frameworks */,
+				3006780C1D6435AF00AAB7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyToForgetDemo;
+			productName = EasyToForgetDemo;
+			productReference = 3006780E1D6435AF00AAB7F3 /* EasyToForgetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		300678261D6435AF00AAB7F3 /* EasyToForgetDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3006783E1D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemoTests" */;
+			buildPhases = (
+				300678231D6435AF00AAB7F3 /* Sources */,
+				300678241D6435AF00AAB7F3 /* Frameworks */,
+				300678251D6435AF00AAB7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300678291D6435AF00AAB7F3 /* PBXTargetDependency */,
+			);
+			name = EasyToForgetDemoTests;
+			productName = EasyToForgetDemoTests;
+			productReference = 300678271D6435AF00AAB7F3 /* EasyToForgetDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		300678311D6435AF00AAB7F3 /* EasyToForgetDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300678411D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemoUITests" */;
+			buildPhases = (
+				3006782E1D6435AF00AAB7F3 /* Sources */,
+				3006782F1D6435AF00AAB7F3 /* Frameworks */,
+				300678301D6435AF00AAB7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300678341D6435AF00AAB7F3 /* PBXTargetDependency */,
+			);
+			name = EasyToForgetDemoUITests;
+			productName = EasyToForgetDemoUITests;
+			productReference = 300678321D6435AF00AAB7F3 /* EasyToForgetDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300678061D6435AF00AAB7F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cll;
+				TargetAttributes = {
+					3006780D1D6435AF00AAB7F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					300678261D6435AF00AAB7F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3006780D1D6435AF00AAB7F3;
+					};
+					300678311D6435AF00AAB7F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3006780D1D6435AF00AAB7F3;
+					};
+				};
+			};
+			buildConfigurationList = 300678091D6435AF00AAB7F3 /* Build configuration list for PBXProject "EasyToForgetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300678051D6435AF00AAB7F3;
+			productRefGroup = 3006780F1D6435AF00AAB7F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3006780D1D6435AF00AAB7F3 /* EasyToForgetDemo */,
+				300678261D6435AF00AAB7F3 /* EasyToForgetDemoTests */,
+				300678311D6435AF00AAB7F3 /* EasyToForgetDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3006780C1D6435AF00AAB7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300678211D6435AF00AAB7F3 /* LaunchScreen.storyboard in Resources */,
+				3006781E1D6435AF00AAB7F3 /* Assets.xcassets in Resources */,
+				3006781C1D6435AF00AAB7F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300678251D6435AF00AAB7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300678301D6435AF00AAB7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3006780A1D6435AF00AAB7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300678161D6435AF00AAB7F3 /* AppDelegate.m in Sources */,
+				300678541D64407100AAB7F3 /* ThreeViewController.m in Sources */,
+				3006784E1D64405400AAB7F3 /* OneViewController.m in Sources */,
+				30FA13581D658CB700E7A8FD /* TextFieldShaker.m in Sources */,
+				300678461D64371A00AAB7F3 /* MainViewController.m in Sources */,
+				300678511D64406200AAB7F3 /* TwoViewController.m in Sources */,
+				300678131D6435AF00AAB7F3 /* main.m in Sources */,
+				3006784B1D643E5C00AAB7F3 /* TableViewModel.m in Sources */,
+				30FA135C1D65A63300E7A8FD /* PlaceHolderTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300678231D6435AF00AAB7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006782C1D6435AF00AAB7F3 /* EasyToForgetDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006782E1D6435AF00AAB7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300678371D6435AF00AAB7F3 /* EasyToForgetDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		300678291D6435AF00AAB7F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3006780D1D6435AF00AAB7F3 /* EasyToForgetDemo */;
+			targetProxy = 300678281D6435AF00AAB7F3 /* PBXContainerItemProxy */;
+		};
+		300678341D6435AF00AAB7F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3006780D1D6435AF00AAB7F3 /* EasyToForgetDemo */;
+			targetProxy = 300678331D6435AF00AAB7F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3006781A1D6435AF00AAB7F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3006781B1D6435AF00AAB7F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3006781F1D6435AF00AAB7F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300678201D6435AF00AAB7F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300678391D6435AF00AAB7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3006783A1D6435AF00AAB7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3006783C1D6435AF00AAB7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyToForgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3006783D1D6435AF00AAB7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyToForgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3006783F1D6435AF00AAB7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyToForgetDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyToForgetDemo.app/EasyToForgetDemo";
+			};
+			name = Debug;
+		};
+		300678401D6435AF00AAB7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyToForgetDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyToForgetDemo.app/EasyToForgetDemo";
+			};
+			name = Release;
+		};
+		300678421D6435AF00AAB7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyToForgetDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyToForgetDemo;
+			};
+			name = Debug;
+		};
+		300678431D6435AF00AAB7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyToForgetDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cll.EasyToForgetDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyToForgetDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300678091D6435AF00AAB7F3 /* Build configuration list for PBXProject "EasyToForgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300678391D6435AF00AAB7F3 /* Debug */,
+				3006783A1D6435AF00AAB7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3006783B1D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3006783C1D6435AF00AAB7F3 /* Debug */,
+				3006783D1D6435AF00AAB7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3006783E1D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3006783F1D6435AF00AAB7F3 /* Debug */,
+				300678401D6435AF00AAB7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300678411D6435AF00AAB7F3 /* Build configuration list for PBXNativeTarget "EasyToForgetDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300678421D6435AF00AAB7F3 /* Debug */,
+				300678431D6435AF00AAB7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300678061D6435AF00AAB7F3 /* Project object */;
+}
