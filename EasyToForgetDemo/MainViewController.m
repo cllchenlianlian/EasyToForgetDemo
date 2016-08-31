@@ -14,6 +14,8 @@
 @property(nonatomic, strong)UITableView *mainTableView;
 @property(nonatomic, strong)NSMutableArray *dateMutableArray;
 
+@property (nonatomic, assign) int cellX;
+
 @end
 
 @implementation MainViewController
@@ -25,11 +27,35 @@
     self.mainTableView.dataSource   = self;
     [self.view addSubview:self.mainTableView];
     [self initDate];
+    
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(handlePanGesture:)];
+    pan.maximumNumberOfTouches = 1;
+    [self.view addGestureRecognizer:pan];
+    
+}
+
+- (void)handlePanGesture:(UIPanGestureRecognizer *)recognize{
+    CGFloat percent = MIN(MAX(0, self.cellX)/self.view.frame.size.width, 1);
+    [self updateMsgControllerConstraintsHiddenPercent:percent animation:NO];
+}
+
+- (void)updateMsgControllerConstraintsHiddenPercent:(CGFloat)percent animation:(BOOL)animation{
+//    if (percent > 0.5) {
+        _mainTableView.frame = CGRectMake(self.mainTableView.frame.size.width * percent, 0, self.view.frame.size.width, self.view.frame.size.height);
+    
+//    }else{
+//        _mainTableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+//    }
+}
+
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    self.cellX = cell.layer.position.x;
 }
 
 - (void)initDate{
-    NSArray *titlesArray            = @[@"NSAttributedString",@"TextField抖动效果",@"TextField-PlaceHolderColor"];
-    NSArray *VCArray                = @[@"OneViewController",@"TwoViewController",@"ThreeViewController"];
+    NSArray *titlesArray            = @[@"NSAttributedString",@"TextField抖动效果",@"TextField-PlaceHolderColor",@"横竖屏",@"直播聊天隐藏动画"];
+    NSArray *VCArray                = @[@"OneViewController",@"TwoViewController",@"ThreeViewController",@"FourViewController",@"ScrollViewController"];
     self.dateMutableArray           = [NSMutableArray array];
     NSInteger index                 = 0;
     for (NSString *title in titlesArray) {
