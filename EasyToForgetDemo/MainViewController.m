@@ -54,7 +54,7 @@
 }
 
 - (void)initDate{
-    NSArray *titlesArray            = @[@"NSAttributedString",@"TextField抖动效果",@"TextField-PlaceHolderColor",@"横竖屏",@"直播聊天隐藏动画"];
+    NSArray *titlesArray            = @[@"NSAttributedString",@"TextField抖动效果",@"TextField-PlaceHolderColor",@"横竖屏",@"直播聊天右滑隐藏动画"];
     NSArray *VCArray                = @[@"OneViewController",@"TwoViewController",@"ThreeViewController",@"FourViewController",@"ScrollViewController"];
     self.dateMutableArray           = [NSMutableArray array];
     NSInteger index                 = 0;
